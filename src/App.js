@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('Yanlin test', process.env.REACT_APP_YANLIN)
   return (
     <div className="App">
       <header className="App-header">
